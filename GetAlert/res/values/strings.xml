@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetAlert</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">GET ALERT !!</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="title_activity_add_alarm">AddAlarm</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_get_map_for_mark">GetMapForMark</string>
+
+    <color name="BLUE">#2E2EFE</color>
+
+    <string name="title_activity_notification_page">NotificationPage</string>
+
+</resources>
