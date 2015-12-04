@@ -1,0 +1,12 @@
+#cookie-wrap { position: fixed; display: none; min-height: 48px; width: 100%; top: 0px; left: 0px; z-index: 999; padding: 10px 0px; background: none repeat scroll 0% 0% rgba(135, 33, 37, 0.90); border-bottom: 1px solid rgba(53, 13, 14, 0.90); }
+#cookie-wrap #accept { cursor: pointer; margin-left: 10px; padding: 5px 10px; background: none repeat scroll 0% 0% rgba(33, 33, 33, 0.65); color: #FFF; border: medium none; border-color: #000; }
+#cookie-wrap #accept:hover { background: rgba(65, 62, 1, 0.65); }
+#cookie-consent { display: block; min-width: 300px; margin-top: -3px; margin-left: auto; margin-right: auto; padding: 0px 0px; color: #fcfcfc; }
+#cookie-consent > div:first-child { text-align: right; padding-top: 5px; }
+#cookie-consent div a.agree { padding: 0 30px; color: #dcdcdc }
+#cookie-consent div a.developer, #cookie-consent div div { float:left; color: rgba(65, 62, 1, 0.65); cursor: text; margin-right: 4px;}
+@media all and (max-width: 980px) {
+  #cookie-consent div a.developer, #cookie-consent div div {
+    display: none;
+  }
+}
